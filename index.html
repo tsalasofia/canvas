@@ -7,19 +7,25 @@
 </head>
 <body>
     <section class="container">
-        <div id="toolbar">
-            <h1>Artify</h1>
-            <label for="stroke">Brush Color</label>
-            <input id="stroke" name='stroke' type="color">
-            <label for="lineWidth">Line Width</label>
-            <button id="brush1">Brush 1</button>
-            <button id="brush2">Brush 2</button>
-            <input id="lineWidth" name='lineWidth' type="number" value="5">
-            <button id="eraser">Eraser</button>
-            <button id="clear">Clear</button>
-            <button id="undo">Undo</button> 
-            <button id="redo">Redo</button> 
-        </div>
+       <div id="toolbar">
+    <h1>Artify</h1>
+    <label for="stroke">Brush Color</label>
+    <input id="stroke" name='stroke' type="color">
+    <label for="lineWidth">Line Width</label>
+    <button id="brush1">Brush 1</button>
+    <button id="brush2">Brush 2</button>
+    <input id="lineWidth" name='lineWidth' type="number" value="5">
+    <button id="eraser">Eraser</button>
+    <button id="clear">Clear</button>
+    <button id="undo">Undo</button> 
+    <button id="redo">Redo</button> 
+    <button id="save" style="background-color: #28a745;">Save to Gallery</button> 
+    
+    <hr style="width: 100%; border-color: #444;">
+    
+    <h3>My Gallery</h3>
+    <div id="gallery"></div>
+</div>
         <div class="drawing-board">
             <canvas id="drawing-board"></canvas>
         </div>
